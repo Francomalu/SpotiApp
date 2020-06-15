@@ -1,0 +1,15 @@
+.Main__Container {
+    height: auto;
+}
+
+.Main__Container .Content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.Content .Content_Artists {
+    display: flex;
+    justify-content: center;
+}

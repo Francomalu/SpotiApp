@@ -1,0 +1,9 @@
+.Content {
+    display: flex;
+}
+
+@media only screen and (max-width: 53.12rem) {
+    .Content {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+.Header_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: start;
+    padding: 1rem;
+}
+
+.Header_Container .Header_Logo {}

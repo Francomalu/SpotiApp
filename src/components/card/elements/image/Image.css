@@ -1,0 +1,12 @@
+.Card .Card__ImageContainer {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    padding-bottom: 1rem;
+}
+
+.Card .Card__ImageContainer .Card__Image {
+    height: 100%;
+    width: 100%;
+}

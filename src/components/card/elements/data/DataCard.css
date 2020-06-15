@@ -1,0 +1,17 @@
+.Card .Card__Data {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card .Card__Data .Card__Title {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+@media only screen and (max-width:31.25rem) {
+    .Card .Card__Data .Card__Title {
+        font-size: 1rem;
+    }
+}

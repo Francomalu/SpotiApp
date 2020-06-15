@@ -1,0 +1,28 @@
+.Profile__Container {
+    height: 10rem;
+    width: 100%;
+    position: relative;
+}
+
+.Profile__Container .Image__Profile {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 30%;
+}
+
+.Profile__Container .Title_Profile {
+    position: absolute;
+    bottom: 0rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:31.25rem) {
+    .Profile__Container .Title_Profile {
+        font-size: 1rem;
+        left: 0.5rem;
+    }
+}

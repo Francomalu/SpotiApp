@@ -1,0 +1,11 @@
+.Content__Tracks {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 53.12rem) {
+    .Content__Tracks {
+        align-items: center;
+    }
+}
